@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1566" started-at="2020-05-28T08:01:25Z" finished-at="2020-05-28T08:01:26Z">
+  <suite name="Default suite" duration-ms="3808" started-at="2020-05-30T06:24:08Z" finished-at="2020-05-30T06:24:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1566" started-at="2020-05-28T08:01:25Z" finished-at="2020-05-28T08:01:26Z">
-      <class name="com.nilava.APIFramework.MockAPISumValidation">
-        <test-method status="PASS" signature="sumOfCourses()[pri:0, instance:com.nilava.APIFramework.MockAPISumValidation@6e1567f1]" name="sumOfCourses" duration-ms="1538" started-at="2020-05-28T08:01:25Z" finished-at="2020-05-28T08:01:26Z">
+    <test name="Default test" duration-ms="3808" started-at="2020-05-30T06:24:08Z" finished-at="2020-05-30T06:24:12Z">
+      <class name="com.nilava.APIFramework.StaticJson">
+        <test-method status="PASS" signature="addPlace()[pri:0, instance:com.nilava.APIFramework.StaticJson@14bf9759]" name="addPlace" duration-ms="3777" started-at="2020-05-30T06:24:08Z" finished-at="2020-05-30T06:24:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sumOfCourses -->
-      </class> <!-- com.nilava.APIFramework.MockAPISumValidation -->
+        </test-method> <!-- addPlace -->
+      </class> <!-- com.nilava.APIFramework.StaticJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

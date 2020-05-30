@@ -23,4 +23,13 @@ public class PayLoad {
 				+ "      \"copies\": 20\r\n" + "    }\r\n" + "  ]\r\n" + "}";
 
 	}
+	
+	public static String insertBook(String isbn, String aisle) {
+		return "{\r\n" + "\"name\":\"Appium with Java\",\r\n" + "\"isbn\":\""+isbn+"\",\r\n"
+				+ "\"aisle\":\""+aisle+"\",\r\n" + "\"author\":\"Nilava Pal\"\r\n" + "}\r\n" + "";
+	}
+	
+	public static String deleBook(String id) {
+		return "{\r\n" + "\r\n" + "\"ID\" : \"" + id + "\"\r\n" + "\r\n" + "} \r\n" + "";
+	}
 }

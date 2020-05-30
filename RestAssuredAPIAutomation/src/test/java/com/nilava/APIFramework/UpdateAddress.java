@@ -6,13 +6,15 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 
 import GenericUtils.ReusableMethod;
 
 public class UpdateAddress {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		//to update the address
 		
